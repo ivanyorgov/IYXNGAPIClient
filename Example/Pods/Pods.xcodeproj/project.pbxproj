@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49981BA2F7B8C99DAD2F90829374EC17 /* Pods-XNGAPIClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD27AA64D96BDDA2540A33D03B9BA284 /* Pods-XNGAPIClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C59B3721EF2F0300C1B044 /* XNGAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0721EF2F0000C1B044 /* XNGAPI.h */; };
+		69C59B3821EF2F0300C1B044 /* XNGAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0721EF2F0000C1B044 /* XNGAPI.h */; };
+		69C59B3921EF2F0300C1B044 /* XNGAPIClient+Recommendations.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0821EF2F0000C1B044 /* XNGAPIClient+Recommendations.h */; };
+		69C59B3A21EF2F0300C1B044 /* XNGAPIClient+Recommendations.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0821EF2F0000C1B044 /* XNGAPIClient+Recommendations.h */; };
+		69C59B3B21EF2F0300C1B044 /* XNGAPIAward.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0921EF2F0000C1B044 /* XNGAPIAward.h */; };
+		69C59B3C21EF2F0300C1B044 /* XNGAPIAward.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0921EF2F0000C1B044 /* XNGAPIAward.h */; };
+		69C59B3D21EF2F0300C1B044 /* XNGAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0A21EF2F0000C1B044 /* XNGAPIClient.h */; };
+		69C59B3E21EF2F0300C1B044 /* XNGAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0A21EF2F0000C1B044 /* XNGAPIClient.h */; };
+		69C59B3F21EF2F0300C1B044 /* XNGAPIClient+Invitations.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0B21EF2F0000C1B044 /* XNGAPIClient+Invitations.h */; };
+		69C59B4021EF2F0300C1B044 /* XNGAPIClient+Invitations.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0B21EF2F0000C1B044 /* XNGAPIClient+Invitations.h */; };
+		69C59B4121EF2F0300C1B044 /* XNGAPIClient+Messages.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0C21EF2F0000C1B044 /* XNGAPIClient+Messages.h */; };
+		69C59B4221EF2F0300C1B044 /* XNGAPIClient+Messages.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0C21EF2F0000C1B044 /* XNGAPIClient+Messages.h */; };
+		69C59B4321EF2F0300C1B044 /* XNGAPIClient+Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0D21EF2F0000C1B044 /* XNGAPIClient+Misc.h */; };
+		69C59B4421EF2F0300C1B044 /* XNGAPIClient+Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0D21EF2F0000C1B044 /* XNGAPIClient+Misc.h */; };
+		69C59B4521EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0E21EF2F0000C1B044 /* XNGAPIClient+NetworkFeed.h */; };
+		69C59B4621EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0E21EF2F0000C1B044 /* XNGAPIClient+NetworkFeed.h */; };
+		69C59B4721EF2F0300C1B044 /* XNGAPIClient+News.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0F21EF2F0000C1B044 /* XNGAPIClient+News.h */; };
+		69C59B4821EF2F0300C1B044 /* XNGAPIClient+News.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B0F21EF2F0000C1B044 /* XNGAPIClient+News.h */; };
+		69C59B4921EF2F0300C1B044 /* XNGAPIClient+Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1021EF2F0000C1B044 /* XNGAPIClient+Contacts.m */; };
+		69C59B4A21EF2F0300C1B044 /* XNGAPIClient+Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1021EF2F0000C1B044 /* XNGAPIClient+Contacts.m */; };
+		69C59B4B21EF2F0300C1B044 /* XNGAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1121EF2F0000C1B044 /* XNGAPIClient.m */; };
+		69C59B4C21EF2F0300C1B044 /* XNGAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1121EF2F0000C1B044 /* XNGAPIClient.m */; };
+		69C59B4D21EF2F0300C1B044 /* XNGAPIClient+Contacts.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1221EF2F0000C1B044 /* XNGAPIClient+Contacts.h */; };
+		69C59B4E21EF2F0300C1B044 /* XNGAPIClient+Contacts.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1221EF2F0000C1B044 /* XNGAPIClient+Contacts.h */; };
+		69C59B4F21EF2F0300C1B044 /* XNGAPIClient+Recommendations.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1321EF2F0000C1B044 /* XNGAPIClient+Recommendations.m */; };
+		69C59B5021EF2F0300C1B044 /* XNGAPIClient+Recommendations.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1321EF2F0000C1B044 /* XNGAPIClient+Recommendations.m */; };
+		69C59B5121EF2F0300C1B044 /* UIImage+Base64Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1421EF2F0000C1B044 /* UIImage+Base64Encoding.m */; };
+		69C59B5221EF2F0300C1B044 /* UIImage+Base64Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1421EF2F0000C1B044 /* UIImage+Base64Encoding.m */; };
+		69C59B5321EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1521EF2F0000C1B044 /* XNGAPIClient+ProfileEditing.m */; };
+		69C59B5421EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1521EF2F0000C1B044 /* XNGAPIClient+ProfileEditing.m */; };
+		69C59B5521EF2F0300C1B044 /* XNGAPIClient+ContactPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1621EF2F0000C1B044 /* XNGAPIClient+ContactPath.h */; };
+		69C59B5621EF2F0300C1B044 /* XNGAPIClient+ContactPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1621EF2F0000C1B044 /* XNGAPIClient+ContactPath.h */; };
+		69C59B5721EF2F0300C1B044 /* XNGAPIClient+ContactRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1721EF2F0100C1B044 /* XNGAPIClient+ContactRequests.h */; };
+		69C59B5821EF2F0300C1B044 /* XNGAPIClient+ContactRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1721EF2F0100C1B044 /* XNGAPIClient+ContactRequests.h */; };
+		69C59B5921EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1821EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.h */; };
+		69C59B5A21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1821EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.h */; };
+		69C59B5B21EF2F0300C1B044 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1921EF2F0100C1B044 /* NSString+URLEncoding.m */; };
+		69C59B5C21EF2F0300C1B044 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1921EF2F0100C1B044 /* NSString+URLEncoding.m */; };
+		69C59B5D21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1A21EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.m */; };
+		69C59B5E21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1A21EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.m */; };
+		69C59B5F21EF2F0300C1B044 /* XNGAPIClient+Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1B21EF2F0100C1B044 /* XNGAPIClient+Events.h */; };
+		69C59B6021EF2F0300C1B044 /* XNGAPIClient+Events.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1B21EF2F0100C1B044 /* XNGAPIClient+Events.h */; };
+		69C59B6121EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1C21EF2F0100C1B044 /* XNGAPIClient+ProfileEditing.h */; };
+		69C59B6221EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1C21EF2F0100C1B044 /* XNGAPIClient+ProfileEditing.h */; };
+		69C59B6321EF2F0300C1B044 /* XNGAPIAward.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1D21EF2F0100C1B044 /* XNGAPIAward.m */; };
+		69C59B6421EF2F0300C1B044 /* XNGAPIAward.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B1D21EF2F0100C1B044 /* XNGAPIAward.m */; };
+		69C59B6521EF2F0300C1B044 /* XNGAPIClient+Groups.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1E21EF2F0100C1B044 /* XNGAPIClient+Groups.h */; };
+		69C59B6621EF2F0300C1B044 /* XNGAPIClient+Groups.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1E21EF2F0100C1B044 /* XNGAPIClient+Groups.h */; };
+		69C59B6721EF2F0300C1B044 /* XNGAPIClient+Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1F21EF2F0100C1B044 /* XNGAPIClient+Jobs.h */; };
+		69C59B6821EF2F0300C1B044 /* XNGAPIClient+Jobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B1F21EF2F0100C1B044 /* XNGAPIClient+Jobs.h */; };
+		69C59B6921EF2F0300C1B044 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2021EF2F0100C1B044 /* NSString+URLEncoding.h */; };
+		69C59B6A21EF2F0300C1B044 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2021EF2F0100C1B044 /* NSString+URLEncoding.h */; };
+		69C59B6B21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2121EF2F0100C1B044 /* XNGAPIClient+Bookmarks.h */; };
+		69C59B6C21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2121EF2F0100C1B044 /* XNGAPIClient+Bookmarks.h */; };
+		69C59B6D21EF2F0300C1B044 /* NSError+XWS.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2221EF2F0100C1B044 /* NSError+XWS.h */; };
+		69C59B6E21EF2F0300C1B044 /* NSError+XWS.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2221EF2F0100C1B044 /* NSError+XWS.h */; };
+		69C59B6F21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2321EF2F0100C1B044 /* XNGAPIClient+Bookmarks.m */; };
+		69C59B7021EF2F0300C1B044 /* XNGAPIClient+Bookmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2321EF2F0100C1B044 /* XNGAPIClient+Bookmarks.m */; };
+		69C59B7121EF2F0300C1B044 /* XNGAPIClient+Invitations.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2421EF2F0100C1B044 /* XNGAPIClient+Invitations.m */; };
+		69C59B7221EF2F0300C1B044 /* XNGAPIClient+Invitations.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2421EF2F0100C1B044 /* XNGAPIClient+Invitations.m */; };
+		69C59B7321EF2F0300C1B044 /* XNGAPIClient+Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2521EF2F0200C1B044 /* XNGAPIClient+Misc.m */; };
+		69C59B7421EF2F0300C1B044 /* XNGAPIClient+Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2521EF2F0200C1B044 /* XNGAPIClient+Misc.m */; };
+		69C59B7521EF2F0300C1B044 /* XNGAPIClient+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2621EF2F0200C1B044 /* XNGAPIClient+Events.m */; };
+		69C59B7621EF2F0300C1B044 /* XNGAPIClient+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2621EF2F0200C1B044 /* XNGAPIClient+Events.m */; };
+		69C59B7721EF2F0300C1B044 /* NSError+XWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2721EF2F0200C1B044 /* NSError+XWS.m */; };
+		69C59B7821EF2F0300C1B044 /* NSError+XWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2721EF2F0200C1B044 /* NSError+XWS.m */; };
+		69C59B7921EF2F0300C1B044 /* UIImage+Base64Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2821EF2F0200C1B044 /* UIImage+Base64Encoding.h */; };
+		69C59B7A21EF2F0300C1B044 /* UIImage+Base64Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2821EF2F0200C1B044 /* UIImage+Base64Encoding.h */; };
+		69C59B7B21EF2F0300C1B044 /* NSDictionary+Typecheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2921EF2F0200C1B044 /* NSDictionary+Typecheck.h */; };
+		69C59B7C21EF2F0300C1B044 /* NSDictionary+Typecheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2921EF2F0200C1B044 /* NSDictionary+Typecheck.h */; };
+		69C59B7D21EF2F0300C1B044 /* XNGAPIClient+Jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2A21EF2F0200C1B044 /* XNGAPIClient+Jobs.m */; };
+		69C59B7E21EF2F0300C1B044 /* XNGAPIClient+Jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2A21EF2F0200C1B044 /* XNGAPIClient+Jobs.m */; };
+		69C59B7F21EF2F0300C1B044 /* XNGAPIClient+Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2B21EF2F0200C1B044 /* XNGAPIClient+Groups.m */; };
+		69C59B8021EF2F0300C1B044 /* XNGAPIClient+Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2B21EF2F0200C1B044 /* XNGAPIClient+Groups.m */; };
+		69C59B8121EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2C21EF2F0200C1B044 /* XNGAPIClient+NetworkFeed.m */; };
+		69C59B8221EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2C21EF2F0200C1B044 /* XNGAPIClient+NetworkFeed.m */; };
+		69C59B8321EF2F0300C1B044 /* NSDictionary+Typecheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2D21EF2F0200C1B044 /* NSDictionary+Typecheck.m */; };
+		69C59B8421EF2F0300C1B044 /* NSDictionary+Typecheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2D21EF2F0200C1B044 /* NSDictionary+Typecheck.m */; };
+		69C59B8521EF2F0300C1B044 /* XNGAPIClient+ContactRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2E21EF2F0200C1B044 /* XNGAPIClient+ContactRequests.m */; };
+		69C59B8621EF2F0300C1B044 /* XNGAPIClient+ContactRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B2E21EF2F0200C1B044 /* XNGAPIClient+ContactRequests.m */; };
+		69C59B8721EF2F0300C1B044 /* XNGAPIClient+UserProfiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2F21EF2F0200C1B044 /* XNGAPIClient+UserProfiles.h */; };
+		69C59B8821EF2F0300C1B044 /* XNGAPIClient+UserProfiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B2F21EF2F0200C1B044 /* XNGAPIClient+UserProfiles.h */; };
+		69C59B8921EF2F0300C1B044 /* XNGAPIClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B3021EF2F0300C1B044 /* XNGAPIClient_Private.h */; };
+		69C59B8A21EF2F0300C1B044 /* XNGAPIClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B3021EF2F0300C1B044 /* XNGAPIClient_Private.h */; };
+		69C59B8B21EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3121EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m */; };
+		69C59B8C21EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3121EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m */; };
+		69C59B8D21EF2F0300C1B044 /* XNGOAuthHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B3221EF2F0300C1B044 /* XNGOAuthHandler.h */; };
+		69C59B8E21EF2F0300C1B044 /* XNGOAuthHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C59B3221EF2F0300C1B044 /* XNGOAuthHandler.h */; };
+		69C59B8F21EF2F0300C1B044 /* XNGOAuthHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3321EF2F0300C1B044 /* XNGOAuthHandler.m */; };
+		69C59B9021EF2F0300C1B044 /* XNGOAuthHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3321EF2F0300C1B044 /* XNGOAuthHandler.m */; };
+		69C59B9121EF2F0300C1B044 /* XNGAPIClient+Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3421EF2F0300C1B044 /* XNGAPIClient+Messages.m */; };
+		69C59B9221EF2F0300C1B044 /* XNGAPIClient+Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3421EF2F0300C1B044 /* XNGAPIClient+Messages.m */; };
+		69C59B9321EF2F0300C1B044 /* XNGAPIClient+ContactPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3521EF2F0300C1B044 /* XNGAPIClient+ContactPath.m */; };
+		69C59B9421EF2F0300C1B044 /* XNGAPIClient+ContactPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3521EF2F0300C1B044 /* XNGAPIClient+ContactPath.m */; };
+		69C59B9521EF2F0300C1B044 /* XNGAPIClient+News.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3621EF2F0300C1B044 /* XNGAPIClient+News.m */; };
+		69C59B9621EF2F0300C1B044 /* XNGAPIClient+News.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C59B3621EF2F0300C1B044 /* XNGAPIClient+News.m */; };
+		AAA376DCD7D715F48770D5E5A2A36DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E1456708DAA77EC79264B55EE45C11DF /* Pods-XNGAPIClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B3A3977430F821EE555355ABA0E60 /* Pods-XNGAPIClient_Tests-dummy.m */; };
+		E36A4BBFED2E29510940A151A7146398 /* XNGAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7EBCD5C3AEF66568008EA9E3A76299 /* XNGAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2FE00AFB99D3A362FF0EA6DAFA66D9 /* XNGAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313F2F24503C41DE7BA71A6FE869A6B2 /* XNGAPIClient-dummy.m */; };
+		FDAC888EDFB2DC178F03B6D294920423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E08E3D2ABD1920B57BBB011AEC0C281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70563EAAB9E88F53EA0298C61EC838C0;
+			remoteInfo = XNGAPIClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D94F42722A1E36C191E344A56D6860D /* Pods-XNGAPIClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNGAPIClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		209B3A3977430F821EE555355ABA0E60 /* Pods-XNGAPIClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XNGAPIClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		313F2F24503C41DE7BA71A6FE869A6B2 /* XNGAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XNGAPIClient-dummy.m"; sourceTree = "<group>"; };
+		349328618D151A04B1C3B9AF653922B4 /* Pods-XNGAPIClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNGAPIClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B7EBCD5C3AEF66568008EA9E3A76299 /* XNGAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNGAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		3C212697EA184517A2513E36216674E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		40A1EF4CCD9D6078A4E0A764DF427FFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46AC5E843D650971F903195069E0D763 /* Pods-XNGAPIClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XNGAPIClient_Tests.modulemap"; sourceTree = "<group>"; };
+		4728699F794FB490DA03A68422DF7110 /* XNGAPIClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XNGAPIClient.xcconfig; sourceTree = "<group>"; };
+		4C1DAF898A6966933B61E9DEFEE53AC7 /* Pods_XNGAPIClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNGAPIClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E666E1B6C1C80AFDC21C9AED51BF906 /* XNGAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XNGAPIClient.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69C59B0721EF2F0000C1B044 /* XNGAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XNGAPI.h; path = XNGAPIClient/Classes/XNGAPI.h; sourceTree = "<group>"; };
+		69C59B0821EF2F0000C1B044 /* XNGAPIClient+Recommendations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Recommendations.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Recommendations.h"; sourceTree = "<group>"; };
+		69C59B0921EF2F0000C1B044 /* XNGAPIAward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XNGAPIAward.h; path = XNGAPIClient/Classes/XNGAPIAward.h; sourceTree = "<group>"; };
+		69C59B0A21EF2F0000C1B044 /* XNGAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XNGAPIClient.h; path = XNGAPIClient/Classes/XNGAPIClient.h; sourceTree = "<group>"; };
+		69C59B0B21EF2F0000C1B044 /* XNGAPIClient+Invitations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Invitations.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Invitations.h"; sourceTree = "<group>"; };
+		69C59B0C21EF2F0000C1B044 /* XNGAPIClient+Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Messages.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Messages.h"; sourceTree = "<group>"; };
+		69C59B0D21EF2F0000C1B044 /* XNGAPIClient+Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Misc.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Misc.h"; sourceTree = "<group>"; };
+		69C59B0E21EF2F0000C1B044 /* XNGAPIClient+NetworkFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+NetworkFeed.h"; path = "XNGAPIClient/Classes/XNGAPIClient+NetworkFeed.h"; sourceTree = "<group>"; };
+		69C59B0F21EF2F0000C1B044 /* XNGAPIClient+News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+News.h"; path = "XNGAPIClient/Classes/XNGAPIClient+News.h"; sourceTree = "<group>"; };
+		69C59B1021EF2F0000C1B044 /* XNGAPIClient+Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Contacts.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Contacts.m"; sourceTree = "<group>"; };
+		69C59B1121EF2F0000C1B044 /* XNGAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XNGAPIClient.m; path = XNGAPIClient/Classes/XNGAPIClient.m; sourceTree = "<group>"; };
+		69C59B1221EF2F0000C1B044 /* XNGAPIClient+Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Contacts.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Contacts.h"; sourceTree = "<group>"; };
+		69C59B1321EF2F0000C1B044 /* XNGAPIClient+Recommendations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Recommendations.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Recommendations.m"; sourceTree = "<group>"; };
+		69C59B1421EF2F0000C1B044 /* UIImage+Base64Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Base64Encoding.m"; path = "XNGAPIClient/Classes/UIImage+Base64Encoding.m"; sourceTree = "<group>"; };
+		69C59B1521EF2F0000C1B044 /* XNGAPIClient+ProfileEditing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+ProfileEditing.m"; path = "XNGAPIClient/Classes/XNGAPIClient+ProfileEditing.m"; sourceTree = "<group>"; };
+		69C59B1621EF2F0000C1B044 /* XNGAPIClient+ContactPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+ContactPath.h"; path = "XNGAPIClient/Classes/XNGAPIClient+ContactPath.h"; sourceTree = "<group>"; };
+		69C59B1721EF2F0100C1B044 /* XNGAPIClient+ContactRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+ContactRequests.h"; path = "XNGAPIClient/Classes/XNGAPIClient+ContactRequests.h"; sourceTree = "<group>"; };
+		69C59B1821EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+ProfileVisits.h"; path = "XNGAPIClient/Classes/XNGAPIClient+ProfileVisits.h"; sourceTree = "<group>"; };
+		69C59B1921EF2F0100C1B044 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "XNGAPIClient/Classes/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		69C59B1A21EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+ProfileVisits.m"; path = "XNGAPIClient/Classes/XNGAPIClient+ProfileVisits.m"; sourceTree = "<group>"; };
+		69C59B1B21EF2F0100C1B044 /* XNGAPIClient+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Events.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Events.h"; sourceTree = "<group>"; };
+		69C59B1C21EF2F0100C1B044 /* XNGAPIClient+ProfileEditing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+ProfileEditing.h"; path = "XNGAPIClient/Classes/XNGAPIClient+ProfileEditing.h"; sourceTree = "<group>"; };
+		69C59B1D21EF2F0100C1B044 /* XNGAPIAward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XNGAPIAward.m; path = XNGAPIClient/Classes/XNGAPIAward.m; sourceTree = "<group>"; };
+		69C59B1E21EF2F0100C1B044 /* XNGAPIClient+Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Groups.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Groups.h"; sourceTree = "<group>"; };
+		69C59B1F21EF2F0100C1B044 /* XNGAPIClient+Jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Jobs.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Jobs.h"; sourceTree = "<group>"; };
+		69C59B2021EF2F0100C1B044 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "XNGAPIClient/Classes/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		69C59B2121EF2F0100C1B044 /* XNGAPIClient+Bookmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+Bookmarks.h"; path = "XNGAPIClient/Classes/XNGAPIClient+Bookmarks.h"; sourceTree = "<group>"; };
+		69C59B2221EF2F0100C1B044 /* NSError+XWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+XWS.h"; path = "XNGAPIClient/Classes/NSError+XWS.h"; sourceTree = "<group>"; };
+		69C59B2321EF2F0100C1B044 /* XNGAPIClient+Bookmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Bookmarks.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Bookmarks.m"; sourceTree = "<group>"; };
+		69C59B2421EF2F0100C1B044 /* XNGAPIClient+Invitations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Invitations.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Invitations.m"; sourceTree = "<group>"; };
+		69C59B2521EF2F0200C1B044 /* XNGAPIClient+Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Misc.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Misc.m"; sourceTree = "<group>"; };
+		69C59B2621EF2F0200C1B044 /* XNGAPIClient+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Events.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Events.m"; sourceTree = "<group>"; };
+		69C59B2721EF2F0200C1B044 /* NSError+XWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+XWS.m"; path = "XNGAPIClient/Classes/NSError+XWS.m"; sourceTree = "<group>"; };
+		69C59B2821EF2F0200C1B044 /* UIImage+Base64Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Base64Encoding.h"; path = "XNGAPIClient/Classes/UIImage+Base64Encoding.h"; sourceTree = "<group>"; };
+		69C59B2921EF2F0200C1B044 /* NSDictionary+Typecheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Typecheck.h"; path = "XNGAPIClient/Classes/NSDictionary+Typecheck.h"; sourceTree = "<group>"; };
+		69C59B2A21EF2F0200C1B044 /* XNGAPIClient+Jobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Jobs.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Jobs.m"; sourceTree = "<group>"; };
+		69C59B2B21EF2F0200C1B044 /* XNGAPIClient+Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Groups.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Groups.m"; sourceTree = "<group>"; };
+		69C59B2C21EF2F0200C1B044 /* XNGAPIClient+NetworkFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+NetworkFeed.m"; path = "XNGAPIClient/Classes/XNGAPIClient+NetworkFeed.m"; sourceTree = "<group>"; };
+		69C59B2D21EF2F0200C1B044 /* NSDictionary+Typecheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Typecheck.m"; path = "XNGAPIClient/Classes/NSDictionary+Typecheck.m"; sourceTree = "<group>"; };
+		69C59B2E21EF2F0200C1B044 /* XNGAPIClient+ContactRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+ContactRequests.m"; path = "XNGAPIClient/Classes/XNGAPIClient+ContactRequests.m"; sourceTree = "<group>"; };
+		69C59B2F21EF2F0200C1B044 /* XNGAPIClient+UserProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XNGAPIClient+UserProfiles.h"; path = "XNGAPIClient/Classes/XNGAPIClient+UserProfiles.h"; sourceTree = "<group>"; };
+		69C59B3021EF2F0300C1B044 /* XNGAPIClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XNGAPIClient_Private.h; path = XNGAPIClient/Classes/XNGAPIClient_Private.h; sourceTree = "<group>"; };
+		69C59B3121EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+UserProfiles.m"; path = "XNGAPIClient/Classes/XNGAPIClient+UserProfiles.m"; sourceTree = "<group>"; };
+		69C59B3221EF2F0300C1B044 /* XNGOAuthHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XNGOAuthHandler.h; path = XNGAPIClient/Classes/XNGOAuthHandler.h; sourceTree = "<group>"; };
+		69C59B3321EF2F0300C1B044 /* XNGOAuthHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XNGOAuthHandler.m; path = XNGAPIClient/Classes/XNGOAuthHandler.m; sourceTree = "<group>"; };
+		69C59B3421EF2F0300C1B044 /* XNGAPIClient+Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+Messages.m"; path = "XNGAPIClient/Classes/XNGAPIClient+Messages.m"; sourceTree = "<group>"; };
+		69C59B3521EF2F0300C1B044 /* XNGAPIClient+ContactPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+ContactPath.m"; path = "XNGAPIClient/Classes/XNGAPIClient+ContactPath.m"; sourceTree = "<group>"; };
+		69C59B3621EF2F0300C1B044 /* XNGAPIClient+News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XNGAPIClient+News.m"; path = "XNGAPIClient/Classes/XNGAPIClient+News.m"; sourceTree = "<group>"; };
+		6A61AFA0AB7093498898E120669FA541 /* Pods-XNGAPIClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XNGAPIClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A63021337EE851848E3FDDF7314376B2 /* Pods-XNGAPIClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XNGAPIClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AADA62ECA0B8DA06B5C4D9F4C68D847F /* Pods-XNGAPIClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XNGAPIClient_Tests-resources.sh"; sourceTree = "<group>"; };
+		B98B1A4299BCD073B08F265AF6149464 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD27AA64D96BDDA2540A33D03B9BA284 /* Pods-XNGAPIClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XNGAPIClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB06146084D2D52D5E14601D7EB751A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13B451C45215EA1D0BE695067EE9A2F /* XNGAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XNGAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA1161605096B5C007EE59DC62BA63B /* Pods-XNGAPIClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XNGAPIClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB70BC04946B2B3552E266938C606EB8 /* XNGAPIClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XNGAPIClient-prefix.pch"; sourceTree = "<group>"; };
+		FCAB998815FE90DABC2A44656CA20D62 /* XNGAPIClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XNGAPIClient.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F9B126AA967FE5440E700A026F4CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAC888EDFB2DC178F03B6D294920423 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FECA1CDBE19918BD63AFA9D4AC9013E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA376DCD7D715F48770D5E5A2A36DCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195A5D48FD851243916E2F32C3457B03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB06146084D2D52D5E14601D7EB751A1 /* Info.plist */,
+				4E666E1B6C1C80AFDC21C9AED51BF906 /* XNGAPIClient.modulemap */,
+				4728699F794FB490DA03A68422DF7110 /* XNGAPIClient.xcconfig */,
+				313F2F24503C41DE7BA71A6FE869A6B2 /* XNGAPIClient-dummy.m */,
+				FB70BC04946B2B3552E266938C606EB8 /* XNGAPIClient-prefix.pch */,
+				3B7EBCD5C3AEF66568008EA9E3A76299 /* XNGAPIClient-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XNGAPIClient";
+			sourceTree = "<group>";
+		};
+		2CFAC705532A5F2658D2E656C97F7E82 /* Pods-XNGAPIClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B98B1A4299BCD073B08F265AF6149464 /* Info.plist */,
+				46AC5E843D650971F903195069E0D763 /* Pods-XNGAPIClient_Tests.modulemap */,
+				A63021337EE851848E3FDDF7314376B2 /* Pods-XNGAPIClient_Tests-acknowledgements.markdown */,
+				6A61AFA0AB7093498898E120669FA541 /* Pods-XNGAPIClient_Tests-acknowledgements.plist */,
+				209B3A3977430F821EE555355ABA0E60 /* Pods-XNGAPIClient_Tests-dummy.m */,
+				349328618D151A04B1C3B9AF653922B4 /* Pods-XNGAPIClient_Tests-frameworks.sh */,
+				AADA62ECA0B8DA06B5C4D9F4C68D847F /* Pods-XNGAPIClient_Tests-resources.sh */,
+				CD27AA64D96BDDA2540A33D03B9BA284 /* Pods-XNGAPIClient_Tests-umbrella.h */,
+				EEA1161605096B5C007EE59DC62BA63B /* Pods-XNGAPIClient_Tests.debug.xcconfig */,
+				1D94F42722A1E36C191E344A56D6860D /* Pods-XNGAPIClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-XNGAPIClient_Tests";
+			path = "Target Support Files/Pods-XNGAPIClient_Tests";
+			sourceTree = "<group>";
+		};
+		6F26FA05F82D354AF04FC50E81647A0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40A1EF4CCD9D6078A4E0A764DF427FFE /* LICENSE */,
+				3C212697EA184517A2513E36216674E9 /* README.md */,
+				FCAB998815FE90DABC2A44656CA20D62 /* XNGAPIClient.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B2B742BDB459AA491827C29871E61D29 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E35F7A75F6DF986B8CEEFDC747DB8537 /* Products */,
+				93200E349474A774B180825537B0BFCE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93200E349474A774B180825537B0BFCE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAC705532A5F2658D2E656C97F7E82 /* Pods-XNGAPIClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2B742BDB459AA491827C29871E61D29 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6E1099160B98A6B2AC39678F4C00327 /* XNGAPIClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E35F7A75F6DF986B8CEEFDC747DB8537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DAF898A6966933B61E9DEFEE53AC7 /* Pods_XNGAPIClient_Tests.framework */,
+				E13B451C45215EA1D0BE695067EE9A2F /* XNGAPIClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E1099160B98A6B2AC39678F4C00327 /* XNGAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				69C59B2921EF2F0200C1B044 /* NSDictionary+Typecheck.h */,
+				69C59B2D21EF2F0200C1B044 /* NSDictionary+Typecheck.m */,
+				69C59B2221EF2F0100C1B044 /* NSError+XWS.h */,
+				69C59B2721EF2F0200C1B044 /* NSError+XWS.m */,
+				69C59B2021EF2F0100C1B044 /* NSString+URLEncoding.h */,
+				69C59B1921EF2F0100C1B044 /* NSString+URLEncoding.m */,
+				69C59B2821EF2F0200C1B044 /* UIImage+Base64Encoding.h */,
+				69C59B1421EF2F0000C1B044 /* UIImage+Base64Encoding.m */,
+				69C59B0721EF2F0000C1B044 /* XNGAPI.h */,
+				69C59B0921EF2F0000C1B044 /* XNGAPIAward.h */,
+				69C59B1D21EF2F0100C1B044 /* XNGAPIAward.m */,
+				69C59B3021EF2F0300C1B044 /* XNGAPIClient_Private.h */,
+				69C59B0A21EF2F0000C1B044 /* XNGAPIClient.h */,
+				69C59B1121EF2F0000C1B044 /* XNGAPIClient.m */,
+				69C59B2121EF2F0100C1B044 /* XNGAPIClient+Bookmarks.h */,
+				69C59B2321EF2F0100C1B044 /* XNGAPIClient+Bookmarks.m */,
+				69C59B1621EF2F0000C1B044 /* XNGAPIClient+ContactPath.h */,
+				69C59B3521EF2F0300C1B044 /* XNGAPIClient+ContactPath.m */,
+				69C59B1721EF2F0100C1B044 /* XNGAPIClient+ContactRequests.h */,
+				69C59B2E21EF2F0200C1B044 /* XNGAPIClient+ContactRequests.m */,
+				69C59B1221EF2F0000C1B044 /* XNGAPIClient+Contacts.h */,
+				69C59B1021EF2F0000C1B044 /* XNGAPIClient+Contacts.m */,
+				69C59B1B21EF2F0100C1B044 /* XNGAPIClient+Events.h */,
+				69C59B2621EF2F0200C1B044 /* XNGAPIClient+Events.m */,
+				69C59B1E21EF2F0100C1B044 /* XNGAPIClient+Groups.h */,
+				69C59B2B21EF2F0200C1B044 /* XNGAPIClient+Groups.m */,
+				69C59B0B21EF2F0000C1B044 /* XNGAPIClient+Invitations.h */,
+				69C59B2421EF2F0100C1B044 /* XNGAPIClient+Invitations.m */,
+				69C59B1F21EF2F0100C1B044 /* XNGAPIClient+Jobs.h */,
+				69C59B2A21EF2F0200C1B044 /* XNGAPIClient+Jobs.m */,
+				69C59B0C21EF2F0000C1B044 /* XNGAPIClient+Messages.h */,
+				69C59B3421EF2F0300C1B044 /* XNGAPIClient+Messages.m */,
+				69C59B0D21EF2F0000C1B044 /* XNGAPIClient+Misc.h */,
+				69C59B2521EF2F0200C1B044 /* XNGAPIClient+Misc.m */,
+				69C59B0E21EF2F0000C1B044 /* XNGAPIClient+NetworkFeed.h */,
+				69C59B2C21EF2F0200C1B044 /* XNGAPIClient+NetworkFeed.m */,
+				69C59B0F21EF2F0000C1B044 /* XNGAPIClient+News.h */,
+				69C59B3621EF2F0300C1B044 /* XNGAPIClient+News.m */,
+				69C59B1C21EF2F0100C1B044 /* XNGAPIClient+ProfileEditing.h */,
+				69C59B1521EF2F0000C1B044 /* XNGAPIClient+ProfileEditing.m */,
+				69C59B1821EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.h */,
+				69C59B1A21EF2F0100C1B044 /* XNGAPIClient+ProfileVisits.m */,
+				69C59B0821EF2F0000C1B044 /* XNGAPIClient+Recommendations.h */,
+				69C59B1321EF2F0000C1B044 /* XNGAPIClient+Recommendations.m */,
+				69C59B2F21EF2F0200C1B044 /* XNGAPIClient+UserProfiles.h */,
+				69C59B3121EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m */,
+				69C59B3221EF2F0300C1B044 /* XNGOAuthHandler.h */,
+				69C59B3321EF2F0300C1B044 /* XNGOAuthHandler.m */,
+				6F26FA05F82D354AF04FC50E81647A0E /* Pod */,
+				195A5D48FD851243916E2F32C3457B03 /* Support Files */,
+			);
+			name = XNGAPIClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5232C411B3BE569CCFF6D3A7CA22D5EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36A4BBFED2E29510940A151A7146398 /* XNGAPIClient-umbrella.h in Headers */,
+				69C59B4021EF2F0300C1B044 /* XNGAPIClient+Invitations.h in Headers */,
+				69C59B3C21EF2F0300C1B044 /* XNGAPIAward.h in Headers */,
+				69C59B6021EF2F0300C1B044 /* XNGAPIClient+Events.h in Headers */,
+				69C59B8A21EF2F0300C1B044 /* XNGAPIClient_Private.h in Headers */,
+				69C59B6C21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.h in Headers */,
+				69C59B4221EF2F0300C1B044 /* XNGAPIClient+Messages.h in Headers */,
+				69C59B3A21EF2F0300C1B044 /* XNGAPIClient+Recommendations.h in Headers */,
+				69C59B5821EF2F0300C1B044 /* XNGAPIClient+ContactRequests.h in Headers */,
+				69C59B7A21EF2F0300C1B044 /* UIImage+Base64Encoding.h in Headers */,
+				69C59B6621EF2F0300C1B044 /* XNGAPIClient+Groups.h in Headers */,
+				69C59B5A21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.h in Headers */,
+				69C59B7C21EF2F0300C1B044 /* NSDictionary+Typecheck.h in Headers */,
+				69C59B4E21EF2F0300C1B044 /* XNGAPIClient+Contacts.h in Headers */,
+				69C59B6221EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.h in Headers */,
+				69C59B3E21EF2F0300C1B044 /* XNGAPIClient.h in Headers */,
+				69C59B4421EF2F0300C1B044 /* XNGAPIClient+Misc.h in Headers */,
+				69C59B4821EF2F0300C1B044 /* XNGAPIClient+News.h in Headers */,
+				69C59B6821EF2F0300C1B044 /* XNGAPIClient+Jobs.h in Headers */,
+				69C59B3821EF2F0300C1B044 /* XNGAPI.h in Headers */,
+				69C59B5621EF2F0300C1B044 /* XNGAPIClient+ContactPath.h in Headers */,
+				69C59B4621EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.h in Headers */,
+				69C59B8821EF2F0300C1B044 /* XNGAPIClient+UserProfiles.h in Headers */,
+				69C59B8E21EF2F0300C1B044 /* XNGOAuthHandler.h in Headers */,
+				69C59B6A21EF2F0300C1B044 /* NSString+URLEncoding.h in Headers */,
+				69C59B6E21EF2F0300C1B044 /* NSError+XWS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF978443A709908C4CA29F0E32EB6952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49981BA2F7B8C99DAD2F90829374EC17 /* Pods-XNGAPIClient_Tests-umbrella.h in Headers */,
+				69C59B3F21EF2F0300C1B044 /* XNGAPIClient+Invitations.h in Headers */,
+				69C59B3B21EF2F0300C1B044 /* XNGAPIAward.h in Headers */,
+				69C59B5F21EF2F0300C1B044 /* XNGAPIClient+Events.h in Headers */,
+				69C59B8921EF2F0300C1B044 /* XNGAPIClient_Private.h in Headers */,
+				69C59B6B21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.h in Headers */,
+				69C59B4121EF2F0300C1B044 /* XNGAPIClient+Messages.h in Headers */,
+				69C59B3921EF2F0300C1B044 /* XNGAPIClient+Recommendations.h in Headers */,
+				69C59B5721EF2F0300C1B044 /* XNGAPIClient+ContactRequests.h in Headers */,
+				69C59B7921EF2F0300C1B044 /* UIImage+Base64Encoding.h in Headers */,
+				69C59B6521EF2F0300C1B044 /* XNGAPIClient+Groups.h in Headers */,
+				69C59B5921EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.h in Headers */,
+				69C59B7B21EF2F0300C1B044 /* NSDictionary+Typecheck.h in Headers */,
+				69C59B4D21EF2F0300C1B044 /* XNGAPIClient+Contacts.h in Headers */,
+				69C59B6121EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.h in Headers */,
+				69C59B3D21EF2F0300C1B044 /* XNGAPIClient.h in Headers */,
+				69C59B4321EF2F0300C1B044 /* XNGAPIClient+Misc.h in Headers */,
+				69C59B4721EF2F0300C1B044 /* XNGAPIClient+News.h in Headers */,
+				69C59B6721EF2F0300C1B044 /* XNGAPIClient+Jobs.h in Headers */,
+				69C59B3721EF2F0300C1B044 /* XNGAPI.h in Headers */,
+				69C59B5521EF2F0300C1B044 /* XNGAPIClient+ContactPath.h in Headers */,
+				69C59B4521EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.h in Headers */,
+				69C59B8721EF2F0300C1B044 /* XNGAPIClient+UserProfiles.h in Headers */,
+				69C59B8D21EF2F0300C1B044 /* XNGOAuthHandler.h in Headers */,
+				69C59B6921EF2F0300C1B044 /* NSString+URLEncoding.h in Headers */,
+				69C59B6D21EF2F0300C1B044 /* NSError+XWS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		213988AB2C565B40763FD6DEFEB067A9 /* Pods-XNGAPIClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BE27276C9A6E5A67C8F4A98A87676A /* Build configuration list for PBXNativeTarget "Pods-XNGAPIClient_Tests" */;
+			buildPhases = (
+				C6A9FE41972277FC9F4D1BD1DC5A78B5 /* Sources */,
+				03F9B126AA967FE5440E700A026F4CE9 /* Frameworks */,
+				EF978443A709908C4CA29F0E32EB6952 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C582966AD120AF99E37F98F1F5AC835D /* PBXTargetDependency */,
+			);
+			name = "Pods-XNGAPIClient_Tests";
+			productName = "Pods-XNGAPIClient_Tests";
+			productReference = 4C1DAF898A6966933B61E9DEFEE53AC7 /* Pods_XNGAPIClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70563EAAB9E88F53EA0298C61EC838C0 /* XNGAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B50A2A14EA2CBABA00BB3E5D21FADB2 /* Build configuration list for PBXNativeTarget "XNGAPIClient" */;
+			buildPhases = (
+				38AA85A1F63A0C698FBF3976052B9185 /* Sources */,
+				3FECA1CDBE19918BD63AFA9D4AC9013E /* Frameworks */,
+				5232C411B3BE569CCFF6D3A7CA22D5EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XNGAPIClient;
+			productName = XNGAPIClient;
+			productReference = E13B451C45215EA1D0BE695067EE9A2F /* XNGAPIClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E35F7A75F6DF986B8CEEFDC747DB8537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				213988AB2C565B40763FD6DEFEB067A9 /* Pods-XNGAPIClient_Tests */,
+				70563EAAB9E88F53EA0298C61EC838C0 /* XNGAPIClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38AA85A1F63A0C698FBF3976052B9185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C59B7821EF2F0300C1B044 /* NSError+XWS.m in Sources */,
+				69C59B8021EF2F0300C1B044 /* XNGAPIClient+Groups.m in Sources */,
+				69C59B8621EF2F0300C1B044 /* XNGAPIClient+ContactRequests.m in Sources */,
+				69C59B6421EF2F0300C1B044 /* XNGAPIAward.m in Sources */,
+				69C59B8421EF2F0300C1B044 /* NSDictionary+Typecheck.m in Sources */,
+				69C59B7221EF2F0300C1B044 /* XNGAPIClient+Invitations.m in Sources */,
+				69C59B5421EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.m in Sources */,
+				69C59B4C21EF2F0300C1B044 /* XNGAPIClient.m in Sources */,
+				69C59B7621EF2F0300C1B044 /* XNGAPIClient+Events.m in Sources */,
+				69C59B4A21EF2F0300C1B044 /* XNGAPIClient+Contacts.m in Sources */,
+				69C59B5E21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.m in Sources */,
+				69C59B8221EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.m in Sources */,
+				69C59B7E21EF2F0300C1B044 /* XNGAPIClient+Jobs.m in Sources */,
+				69C59B5021EF2F0300C1B044 /* XNGAPIClient+Recommendations.m in Sources */,
+				69C59B5221EF2F0300C1B044 /* UIImage+Base64Encoding.m in Sources */,
+				69C59B5C21EF2F0300C1B044 /* NSString+URLEncoding.m in Sources */,
+				FD2FE00AFB99D3A362FF0EA6DAFA66D9 /* XNGAPIClient-dummy.m in Sources */,
+				69C59B7021EF2F0300C1B044 /* XNGAPIClient+Bookmarks.m in Sources */,
+				69C59B9021EF2F0300C1B044 /* XNGOAuthHandler.m in Sources */,
+				69C59B9221EF2F0300C1B044 /* XNGAPIClient+Messages.m in Sources */,
+				69C59B9621EF2F0300C1B044 /* XNGAPIClient+News.m in Sources */,
+				69C59B9421EF2F0300C1B044 /* XNGAPIClient+ContactPath.m in Sources */,
+				69C59B8C21EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m in Sources */,
+				69C59B7421EF2F0300C1B044 /* XNGAPIClient+Misc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A9FE41972277FC9F4D1BD1DC5A78B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C59B7721EF2F0300C1B044 /* NSError+XWS.m in Sources */,
+				69C59B7F21EF2F0300C1B044 /* XNGAPIClient+Groups.m in Sources */,
+				69C59B8521EF2F0300C1B044 /* XNGAPIClient+ContactRequests.m in Sources */,
+				69C59B6321EF2F0300C1B044 /* XNGAPIAward.m in Sources */,
+				69C59B8321EF2F0300C1B044 /* NSDictionary+Typecheck.m in Sources */,
+				69C59B7121EF2F0300C1B044 /* XNGAPIClient+Invitations.m in Sources */,
+				69C59B5321EF2F0300C1B044 /* XNGAPIClient+ProfileEditing.m in Sources */,
+				69C59B4B21EF2F0300C1B044 /* XNGAPIClient.m in Sources */,
+				69C59B7521EF2F0300C1B044 /* XNGAPIClient+Events.m in Sources */,
+				69C59B4921EF2F0300C1B044 /* XNGAPIClient+Contacts.m in Sources */,
+				69C59B5D21EF2F0300C1B044 /* XNGAPIClient+ProfileVisits.m in Sources */,
+				69C59B8121EF2F0300C1B044 /* XNGAPIClient+NetworkFeed.m in Sources */,
+				69C59B7D21EF2F0300C1B044 /* XNGAPIClient+Jobs.m in Sources */,
+				69C59B4F21EF2F0300C1B044 /* XNGAPIClient+Recommendations.m in Sources */,
+				69C59B5121EF2F0300C1B044 /* UIImage+Base64Encoding.m in Sources */,
+				69C59B5B21EF2F0300C1B044 /* NSString+URLEncoding.m in Sources */,
+				E1456708DAA77EC79264B55EE45C11DF /* Pods-XNGAPIClient_Tests-dummy.m in Sources */,
+				69C59B6F21EF2F0300C1B044 /* XNGAPIClient+Bookmarks.m in Sources */,
+				69C59B8F21EF2F0300C1B044 /* XNGOAuthHandler.m in Sources */,
+				69C59B9121EF2F0300C1B044 /* XNGAPIClient+Messages.m in Sources */,
+				69C59B9521EF2F0300C1B044 /* XNGAPIClient+News.m in Sources */,
+				69C59B9321EF2F0300C1B044 /* XNGAPIClient+ContactPath.m in Sources */,
+				69C59B8B21EF2F0300C1B044 /* XNGAPIClient+UserProfiles.m in Sources */,
+				69C59B7321EF2F0300C1B044 /* XNGAPIClient+Misc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C582966AD120AF99E37F98F1F5AC835D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XNGAPIClient;
+			target = 70563EAAB9E88F53EA0298C61EC838C0 /* XNGAPIClient */;
+			targetProxy = 5E08E3D2ABD1920B57BBB011AEC0C281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E939DFCCD878F64137A5D5C8442BA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA1161605096B5C007EE59DC62BA63B /* Pods-XNGAPIClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNGAPIClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNGAPIClient_Tests/Pods-XNGAPIClient_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5277369EE336B1D27D3668DF2592BA17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D94F42722A1E36C191E344A56D6860D /* Pods-XNGAPIClient_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XNGAPIClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XNGAPIClient_Tests/Pods-XNGAPIClient_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F2085D9C4F4BC124E49BD65AAC9788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4728699F794FB490DA03A68422DF7110 /* XNGAPIClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNGAPIClient/XNGAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNGAPIClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XNGAPIClient/XNGAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = XNGAPIClient;
+				PRODUCT_NAME = XNGAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F47814377287DCB931643BE829FB99EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4728699F794FB490DA03A68422DF7110 /* XNGAPIClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XNGAPIClient/XNGAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XNGAPIClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XNGAPIClient/XNGAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = XNGAPIClient;
+				PRODUCT_NAME = XNGAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B50A2A14EA2CBABA00BB3E5D21FADB2 /* Build configuration list for PBXNativeTarget "XNGAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2085D9C4F4BC124E49BD65AAC9788F /* Debug */,
+				F47814377287DCB931643BE829FB99EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BE27276C9A6E5A67C8F4A98A87676A /* Build configuration list for PBXNativeTarget "Pods-XNGAPIClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E939DFCCD878F64137A5D5C8442BA6F /* Debug */,
+				5277369EE336B1D27D3668DF2592BA17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

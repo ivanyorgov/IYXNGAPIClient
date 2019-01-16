@@ -1,0 +1,16 @@
+PODS:
+  - XNGAPIClient (0.1.0)
+
+DEPENDENCIES:
+  - XNGAPIClient (from `../`)
+
+EXTERNAL SOURCES:
+  XNGAPIClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XNGAPIClient: afb414515cb4d5f670d865cf7356854ac3bdb493
+
+PODFILE CHECKSUM: 9fdf3e27b6363adabd795fca53880220379ddd67
+
+COCOAPODS: 1.5.3

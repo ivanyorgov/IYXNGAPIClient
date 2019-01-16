@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XNGAPIClient_Tests' do
+  pod 'XNGAPIClient', :path => '../'
+  
+  
+end
