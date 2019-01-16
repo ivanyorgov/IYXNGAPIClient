@@ -1,0 +1,22 @@
+{
+  "name": "IYXNGAPIClient",
+  "version": "0.1.0",
+  "summary": "A short description of IYXNGAPIClient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ivanyorgov/IYXNGAPIClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ivanyorgov": "stubborn@mail.bg"
+  },
+  "source": {
+    "git": "https://github.com/ivanyorgov/IYXNGAPIClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IYXNGAPIClient/Classes/**/*"
+}

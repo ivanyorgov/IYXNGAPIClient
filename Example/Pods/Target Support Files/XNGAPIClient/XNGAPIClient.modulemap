@@ -1,6 +1,0 @@
-framework module XNGAPIClient {
-  umbrella header "XNGAPIClient-umbrella.h"
-
-  export *
-  module * { export * }
-}

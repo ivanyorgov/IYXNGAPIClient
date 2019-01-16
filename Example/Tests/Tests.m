@@ -1,6 +1,6 @@
 //
-//  XNGAPIClientTests.m
-//  XNGAPIClientTests
+//  IYXNGAPIClientTests.m
+//  IYXNGAPIClientTests
 //
 //  Created by ivanyorgov on 01/16/2019.
 //  Copyright (c) 2019 ivanyorgov. All rights reserved.

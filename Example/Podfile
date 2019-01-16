@@ -1,6 +1,6 @@
 use_frameworks!
-target 'XNGAPIClient_Tests' do
-  pod 'XNGAPIClient', :path => '../'
+target 'IYXNGAPIClient_Tests' do
+  pod 'IYXNGAPIClient', :path => '../'
   
   
 end

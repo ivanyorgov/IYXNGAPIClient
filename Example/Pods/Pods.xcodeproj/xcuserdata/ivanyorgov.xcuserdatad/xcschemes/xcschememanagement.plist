@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-XNGAPIClient_Tests.xcscheme</key>
+		<key>IYXNGAPIClient.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>XNGAPIClient.xcscheme</key>
+		<key>Pods-IYXNGAPIClient_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
