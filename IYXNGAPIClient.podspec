@@ -38,7 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'AFNetworking',      '2.5.4', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession', 'NSURLConnection']
+    s.dependency 'AFNetworking/Reachability', 2.5.4'
+    s.dependency 'AFNetworking/Serialization', 2.5.4'
+    s.dependency 'AFNetworking/Security', 2.5.4'
+    s.dependency 'AFNetworking/NSURLConnection', 2.5.4'
     s.dependency 'SAMKeychain',       '~> 1.5.0'
     s.dependency 'XNGOAuth1Client',   '~> 2.0.0'
 end
