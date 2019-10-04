@@ -43,5 +43,5 @@ TODO: Add long description of the pod here.
     s.dependency 'AFNetworking/Security', '2.5.4'	
     s.dependency 'AFNetworking/NSURLConnection', '2.5.4'
     s.dependency 'SAMKeychain',       '~> 1.5.0'
-  # s.dependency 'XNGOAuth1Client',   '~> 2.0.0'
+  # s.dependency 'IYXNGOAuth1Client',   '~> 2.0.2'
 end
