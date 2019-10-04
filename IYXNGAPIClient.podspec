@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking', '2.5.4'
     s.dependency 'SAMKeychain',       '~> 1.5.0'
-  # s.dependency 'XNGOAuth1Client',   '~> 2.0.0'
+    s.dependency 'XNGOAuth1Client',   '~> 2.0.0'
 end
