@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <XNGOAuth1Client/XNGOAuth1Client.h>
+#import <IYXNGOAuth1Client/IYXNGOAuth1Client.h>
 #import "XNGAPIClient.h"
 #import "NSString+URLEncoding.h"
 #import "NSDictionary+Typecheck.h"
 #import "XNGOAuthHandler.h"
-#import "XNGOAuthToken.h"
+#import "IYXNGOAuthToken.h"
 #import "NSError+XWS.h"
 
 typedef void(^XNGAPILoginOpenURLBlock)(NSURL*openURL);
@@ -152,7 +152,7 @@ static NSString * const XNGAPIClientOAuthAccessTokenPath = @"v1/access_token";
                                      accessMethod:@"POST"
                                             scope:nil
                                           success:
-     ^(XNGOAuthToken *accessToken, id responseObject) {
+     ^(IYXNGOAuthToken *accessToken, id responseObject) {
          NSString *userID = [accessToken.userInfo xng_stringForKey:@"user_id"];
          [weakSelf.oAuthHandler saveUserID:userID
                                accessToken:accessToken.key
@@ -181,7 +181,7 @@ static NSString * const XNGAPIClientOAuthAccessTokenPath = @"v1/access_token";
                               accessMethod:@"POST"
                                      scope:nil
                                    success:
-     ^(XNGOAuthToken *requestToken, id responseObject) {
+     ^(IYXNGOAuthToken *requestToken, id responseObject) {
          
          weakSelf.loginOpenURLBlock = [weakSelf loginOpenURLBlockWithRequestToken:requestToken loggedIn:loggedInBlock failuire:failureBlock];
 
@@ -196,7 +196,7 @@ static NSString * const XNGAPIClientOAuthAccessTokenPath = @"v1/access_token";
     
 }
 
-- (XNGAPILoginOpenURLBlock) loginOpenURLBlockWithRequestToken:(XNGOAuthToken*)requestToken
+- (XNGAPILoginOpenURLBlock) loginOpenURLBlockWithRequestToken:(IYXNGOAuthToken*)requestToken
                                                      loggedIn:(void (^)())loggedInBlock
                                                      failuire:(void (^)(NSError *))failureBlock  {
     __weak __typeof(&*self)weakSelf = self;
@@ -209,13 +209,13 @@ static NSString * const XNGAPIClientOAuthAccessTokenPath = @"v1/access_token";
         [weakSelf acquireOAuthAccessTokenWithPath:XNGAPIClientOAuthAccessTokenPath
                                  requestToken:requestToken
                                  accessMethod:@"POST"
-                                      success:^(XNGOAuthToken *accessToken, id responseObject) {
+                                      success:^(IYXNGOAuthToken *accessToken, id responseObject) {
                                           [weakSelf saveAuthDataFromToken:accessToken success:loggedInBlock failure:failureBlock];
                                           loggedInBlock();
                                       } failure:failureBlock];
     };
 }
-- (void) saveAuthDataFromToken:(XNGOAuthToken*)accessToken
+- (void) saveAuthDataFromToken:(IYXNGOAuthToken*)accessToken
                        success:(void (^)(void))success
                        failure:(void (^)(NSError *error))failure  {
     self.accessToken = accessToken;
@@ -291,9 +291,9 @@ static NSString * const XNGAPIClientOAuthAccessTokenPath = @"v1/access_token";
     [self POST:path parameters:parameters success:success failure:failure];
 }
 
-- (XNGOAuthToken*)accessTokenFromKeychain {
+- (IYXNGOAuthToken*)accessTokenFromKeychain {
     if (self.oAuthHandler.accessToken && self.oAuthHandler.tokenSecret) {
-        return [[XNGOAuthToken alloc] initWithKey:self.oAuthHandler.accessToken secret:self.oAuthHandler.tokenSecret session:nil expiration:nil renewable:YES];
+        return [[IYXNGOAuthToken alloc] initWithKey:self.oAuthHandler.accessToken secret:self.oAuthHandler.tokenSecret session:nil expiration:nil renewable:YES];
     }
     return nil;
 }

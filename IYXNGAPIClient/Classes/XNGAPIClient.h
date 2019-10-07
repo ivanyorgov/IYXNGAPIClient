@@ -21,9 +21,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <XNGOAuth1Client/XNGOAuth1Client.h>
+#import <IYXNGOAuth1Client/IYXNGOAuth1Client.h>
 
-@interface XNGAPIClient : XNGOAuth1Client
+@interface XNGAPIClient : IYXNGOAuth1Client
 
 extern NSString * const XNGAPIClientInvalidTokenErrorNotification;
 extern NSString * const XNGAPIClientDeprecationErrorNotification;
