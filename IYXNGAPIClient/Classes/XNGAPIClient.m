@@ -20,11 +20,11 @@
 // THE SOFTWARE.
 
 #import <IYXNGOAuth1Client/IYXNGOAuth1Client.h>
+#import <IYXNGOAuth1Client/IYXNGOAuthToken.h>
 #import "XNGAPIClient.h"
 #import "NSString+URLEncoding.h"
 #import "NSDictionary+Typecheck.h"
 #import "XNGOAuthHandler.h"
-#import "IYXNGOAuthToken.h"
 #import "NSError+XWS.h"
 
 typedef void(^XNGAPILoginOpenURLBlock)(NSURL*openURL);

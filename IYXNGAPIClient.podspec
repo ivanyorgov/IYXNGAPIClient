@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IYXNGAPIClient'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A short description of IYXNGAPIClient.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'IYXNGAPIClient/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'IYXNGAPIClient' => ['IYXNGAPIClient/Assets/*.png']
   # }
@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking/Reachability', '2.5.4'
-    s.dependency 'AFNetworking/Serialization', '2.5.4'	
-    s.dependency 'AFNetworking/Security', '2.5.4'	
+    s.dependency 'AFNetworking/Serialization', '2.5.4'
+    s.dependency 'AFNetworking/Security', '2.5.4'
     s.dependency 'AFNetworking/NSURLConnection', '2.5.4'
     s.dependency 'SAMKeychain',       '~> 1.5.0'
     s.dependency 'IYXNGOAuth1Client',   '~> 2.0.2'
